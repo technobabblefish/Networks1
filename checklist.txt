@@ -18,5 +18,4 @@ Client
 Report
 [] Plot two graphs of the latency (mean server response time) versus number of clients for the 'netstat' and 'current date and time' commands
     - Where number of clients = 1, 5, 10, 20, 30, 40, 50, 60, 70, 75
-[] Actually type up and print out a report!
-    -
+    - Print it out and bring to class Wednesday! (also good to have a copy on your computer, also brought to class)
