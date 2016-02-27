@@ -1,6 +1,6 @@
 
 Server
-[] Prints out messages about what it's doing (i.e. "accepting a new connection", etc.)
+[X] Prints out messages about what it's doing (i.e. "accepting a new connection", etc.)
 [X] Deal with invalid commands (display error message, return to menu)
 
 
