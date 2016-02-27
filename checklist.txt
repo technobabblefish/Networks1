@@ -11,7 +11,8 @@ Client
 
 [] Enter server hostname as command line argument when invoked
 [X] Program enters loop allowing user to select various options, then return to the menu, until told by user to quit
-
+[] Multithreading capability to simulate various number of clients (1, 5, 10, 20...)
+[] Record and save data regarding netstat latency statistics with varying number of emulated clients (see Ahuja's email sent to us on Friday, 02/26)
 
 
 
