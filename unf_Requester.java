@@ -13,8 +13,7 @@ public class Requester {
         Socket socket;
         int mySocket = 20904; // 31337;
 
-/// big WHILE to end
-///MENU
+        /// big WHILE to end MENU
         // Menu
         Scanner menuSel = new Scanner(System.in);
         mLoop:
@@ -35,7 +34,7 @@ public class Requester {
             if(menuItem == 7) break mLoop;
         //} // end MENU while
 
-/// 1-7
+        /// 1-7
         try { /// MAIN TRY
             InetAddress host = InetAddress.getLocalHost();
             socket = new Socket(host.getHostName(), mySocket);

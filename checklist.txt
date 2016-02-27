@@ -1,0 +1,22 @@
+
+Server
+[] Prints out messages about what it's doing (i.e. "accepting a new connection", etc.)
+[X] Deal with invalid commands (display error message, return to menu)
+
+
+
+
+
+Client
+
+[] Enter server hostname as command line argument when invoked
+[X] Program enters loop allowing user to select various options, then return to the menu, until told by user to quit
+
+
+
+
+Report
+[] Plot two graphs of the latency (mean server response time) versus number of clients for the 'netstat' and 'current date and time' commands
+    - Where number of clients = 1, 5, 10, 20, 30, 40, 50, 60, 70, 75
+[] Actually type up and print out a report!
+    -

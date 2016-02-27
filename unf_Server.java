@@ -20,23 +20,9 @@ public class Server {
     }
 
     void run() {
-        /*
-         Runtime r = Runtime.getRuntime();
-        Process p;     // Process tracks one external native process
-        */
 
         String cmd = "";
 
-        //cmd = "c:/utils/mydate.bat";
-        //ProcessBuilder pb = new ProcessBuilder(cmd);
-        //  Process p = pb.start();
-        /*
-         Process p = pb.start();
-         InputStream is = p.getInputStream();
-         InputStreamReader isr = new InputStreamReader(is);
-         BufferedReader br = new BufferedReader(isr);
-         String line; */
-        //ObjectOutputStream out;
         try {
 
             ServerSocket = new ServerSocket(20904, 10);
