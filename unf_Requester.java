@@ -52,11 +52,12 @@ public class Requester {
                     if (message == null) {
                         moreRead = false;
                     } else {
-                        System.out.println("\n\n ===== Received from server =====\n " + message +"\n===============================\n\n");
+                      //  System.out.println("\n\n ===== Received from server =====\n " + message +"\n===============================\n\n");
+                      System.out.println(message);
                     }
-                    ois.close();
-                    oos.close();
-                    socket.close();
+                    //ois.close();
+                    //oos.close();
+                    //socket.close();
                 } // end while
             } catch (EOFException e) {
                 // end of stream
